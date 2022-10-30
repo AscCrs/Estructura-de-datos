@@ -15,6 +15,7 @@
  * Ejemplo de salida:
  * 3
  */
+package Arboles.Practica;
 import java.util.Scanner;
 
 public class MainBinaryTree {

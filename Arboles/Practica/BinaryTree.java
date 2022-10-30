@@ -1,3 +1,5 @@
+package Arboles.Practica;
+
 public class BinaryTree {
     Nodo raiz;
 
