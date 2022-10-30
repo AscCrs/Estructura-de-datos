@@ -15,6 +15,7 @@ public class Main {
                 System.out.println("3.Buscar dato\n4.Obtener numero de padres\n5.Obtener total de nodos\n6.Salir");
                 System.out.print("Ingrese su opcion: ");
                 opc = sc.nextInt();
+                System.out.println("");
 
                 switch (opc) {
                     case 1:
@@ -41,7 +42,7 @@ public class Main {
                         System.out.flush();
                         break;
                     case 3:
-                        System.out.println("Ingrese el dato que desea buscar: ");
+                        System.out.print("Ingrese el dato que desea buscar: ");
                         find = arbol.busqueda(sc.nextInt());
                         if (!(find))
                             System.out.println("No se encontro el elemento");
@@ -53,14 +54,14 @@ public class Main {
                         System.out.flush();
                         break;
                     case 4:
-                        System.out.println("El numero de nodos padre dentro del arbol es " + arbol.contarPadres());
+                        System.out.println("El numero de nodos padre dentro del arbol sin contar la raiz es " + arbol.contarPadres());
 
                         Thread.sleep(2000);
                         System.out.print("\033[H\033[2J");
                         System.out.flush();
                         break;
                     case 5:
-                        System.out.println("El total de nodos padre dentro del arbol es " + arbol.nodosTotales());
+                        System.out.println("El total de nodos padre dentro del arbol sin contar la raiz es " + arbol.nodosTotales());
 
                         Thread.sleep(2000);
                         System.out.print("\033[H\033[2J");
