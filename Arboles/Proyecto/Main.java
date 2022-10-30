@@ -12,7 +12,8 @@ public class Main {
         try {
             do {
                 System.out.println("Menu:\n1.Ingresar datos\n2.Obtener altura");
-                System.out.println("3.Buscar dato\n4.Obtener numero de padres\n5.Obtener total de nodos\n6.Salir");
+                System.out.println("3.Buscar dato\n4.Obtener numero de padres");
+                System.out.println("5.Obtener total de nodos\n8.Recorrer el arbol\n7.Salir");
                 System.out.print("Ingrese su opcion: ");
                 opc = sc.nextInt();
                 System.out.println("");
@@ -68,6 +69,32 @@ public class Main {
                         System.out.flush();
                         break;
                     case 6:
+                        System.out.println("Recorrer:\n1.PreOrder\n2.InOrden\n3.PostOrden");
+                        System.out.print("Ingrese su opcion:");
+                        opc = sc.nextInt();
+                        switch (opc) {
+                            case 1:
+                                System.out.println("El recorrido en PreOrden es:");
+                                arbol.recorrerPreorden();
+                                break;
+                            case 2:
+                                System.out.println("El recorrido en InOrden es:");
+                                arbol.recorrerInorden();
+                                break;
+                            case 3:
+                                System.out.println("El recorrido en PostOrden es:");
+                                arbol.recorrerPostorden();
+                                break;
+                            default:
+                                System.out.println("Error - Opcion invalida");
+                                break;
+                        }
+
+                        Thread.sleep(2000);
+                        System.out.print("\033[H\033[2J");
+                        System.out.flush();
+                        break;
+                    case 7:
                         vVal = false;
                         break;
                     default:
