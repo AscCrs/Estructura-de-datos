@@ -1,7 +1,9 @@
+package Arboles.Proyecto;
+
 public class Arbol {
     private Nodo raiz;
-    
-    //construir un arbol vacio
+
+    // construir un arbol vacio
     public Arbol() {
         raiz = null;
     }
@@ -18,17 +20,18 @@ public class Arbol {
         }
         return 0;
     }
-    
+
     /**
      * valor de entrada para cada nuevo nodo que sea insertado
+     * 
      * @param dato
      */
-    //insertar un nuevo nodo en el arbol de busqueda binaria
+    // insertar un nuevo nodo en el arbol de busqueda binaria
     public synchronized void insertarNodo(int dato) {
-        if(raiz == null)
-            raiz = new Nodo(dato); //crea nodo raiz
+        if (raiz == null)
+            raiz = new Nodo(dato); // crea nodo raiz
         else
-            raiz.insertar(dato); //llama al metodo insertar        
+            raiz.insertar(dato); // llama al metodo insertar
     }
 
     // Buscar si un elemento existe dentro del arbol
@@ -37,13 +40,13 @@ public class Arbol {
     }
 
     // Metodo auxiliar para realizar la busqueda del elemento en el arbol
-    private boolean busqueda(Nodo nodo, int dato) { 
+    private boolean busqueda(Nodo nodo, int dato) {
         if (nodo != null) {
-            if (nodo.getDatos() == dato) 
+            if (nodo.getDatos() == dato)
                 return true;
-            else if (dato < nodo.getDatos()) 
+            else if (dato < nodo.getDatos())
                 return busqueda(nodo.getIzquierda(), dato);
-            else 
+            else
                 return busqueda(nodo.getDerecha(), dato);
         }
         return false;
@@ -66,18 +69,20 @@ public class Arbol {
     }
 
     /**
-     * @param raiz  hace referencia a la raiz del arbol creado
-     * @integer altura  sera el valor devuelto por el metodo recursivo
-     * los metodos auxiliares recorren la altura del arbol en la izquierda y derecha
-     * @param nodo   es el valor enviado por el metodo recursivo que hace referencia a la raiz
-    */
+     * @param raiz hace referencia a la raiz del arbol creado
+     * @integer altura sera el valor devuelto por el metodo recursivo
+     *          los metodos auxiliares recorren la altura del arbol en la izquierda
+     *          y derecha
+     * @param nodo es el valor enviado por el metodo recursivo que hace referencia a
+     *             la raiz
+     */
 
     // contar el total de nodos dentro del arbol
     public int nodosTotales() {
         return nodosTotales(raiz);
     }
 
-    public int nodosTotales(Nodo raiz) {
+    private int nodosTotales(Nodo raiz) {
         if (raiz != null) {
             int alturaIzquierda = alturaIzquierda(raiz);
             int alturaDerecha = alturaDerecha(raiz);
@@ -90,71 +95,76 @@ public class Arbol {
     }
 
     // metodo auxiliar para recorrer los nodos izquierdos del arbol
-    public int alturaIzquierda(Nodo nodo) {
-       int altura = 0;
-       while (nodo != null) {
-        altura ++;
-        nodo = nodo.getIzquierda();
-       }
-       return altura;
+    private int alturaIzquierda(Nodo nodo) {
+        int altura = 0;
+        while (nodo != null) {
+            altura++;
+            nodo = nodo.getIzquierda();
+        }
+        return altura;
     }
 
     // metodo auxiliar para recorrer los nodos deerechos del arbol
-    public int alturaDerecha(Nodo nodo) {
+    private int alturaDerecha(Nodo nodo) {
         int altura = 0;
         while (nodo != null) {
-            altura ++;
+            altura++;
             nodo = nodo.getDerecha();
         }
 
         return altura;
     }
-    
-    /** Metodos de recorrido del arbol
-     * @param nodo  es el nodo a partir del cual se empezara a hacer el recorrido (la raiz)
-     * @return cada metodo devolvera el arbol ordenado de acuerdo al recorrido efectuado (no hay ninguna salida de datos mas que una impresion por consola)
+
+    /**
+     * Metodos de recorrido del arbol
+     * 
+     * @param nodo es el nodo a partir del cual se empezara a hacer el recorrido (la
+     *             raiz)
+     * @return cada metodo devolvera el arbol ordenado de acuerdo al recorrido
+     *         efectuado (no hay ninguna salida de datos mas que una impresion por
+     *         consola)
      */
 
     // RECOORRIDO EN PREORDEN
     public synchronized void recorrerPreorden() {
         preorden(raiz);
     }
-    
-    //metodo recursivo para recorrido en preorden
+
+    // metodo recursivo para recorrido en preorden
     private void preorden(Nodo nodo) {
-        if(nodo == null)
+        if (nodo == null)
             return;
-        
-        System.out.print(nodo.dato + " ");     //mostrar datos del nodo
-        preorden(nodo.izquierda);   //recorre subarbol izquierdo
-        preorden(nodo.derecha);     //recorre subarbol derecho
+
+        System.out.print(nodo.dato + " "); // mostrar datos del nodo
+        preorden(nodo.izquierda); // recorre subarbol izquierdo
+        preorden(nodo.derecha); // recorre subarbol derecho
     }
-    
-    //EMPEZAR RECORRIDO INORDEN
+
+    // EMPEZAR RECORRIDO INORDEN
     public synchronized void recorrerInorden() {
         inorden(raiz);
     }
-    
-    //meoto recursivo para recorrido inorden
+
+    // meoto recursivo para recorrido inorden
     private void inorden(Nodo nodo) {
-        if(nodo == null)
+        if (nodo == null)
             return;
-        
+
         inorden(nodo.izquierda);
         System.out.print(nodo.dato + " ");
         inorden(nodo.derecha);
     }
-    
-    //EMPEZAR RECORRIDO PORORDEN
+
+    // EMPEZAR RECORRIDO PORORDEN
     public synchronized void recorrerPostorden() {
-        postorden(raiz);        
+        postorden(raiz);
     }
-    
-    //meotod recursivo para recorrido posorden
+
+    // meotod recursivo para recorrido posorden
     private void postorden(Nodo nodo) {
-        if( nodo == null )
+        if (nodo == null)
             return;
-        
+
         postorden(nodo.izquierda);
         postorden(nodo.derecha);
         System.out.print(nodo.dato + " ");
