@@ -27,7 +27,7 @@ public class QueueMain {
                                 } else {
                                     for (int i = 0; i < size; i++) {
                                         System.out.print("Ingrese el dato: " + (i + 1) + " : ");
-                                        cola.push(sc.next());
+                                        cola.push(sc.nextInt());
                                     }
                                 }
                                 System.out.println("Datos agregados correcamente!");
@@ -58,6 +58,24 @@ public class QueueMain {
                                 System.out.flush();
                                 break;
                             case 5:
+                                System.out.print("Seleccione el metodo de ordenamiento que quiere aplicar: ");
+                                opc = sc.nextInt();
+                                switch (opc) {
+                                    case 1:
+                                        System.out.println(cola.bubbleSort());
+                                        break;
+                                    case 2:
+                                        System.out.println(cola.quicksort());
+                                        break;
+                                    case 3:
+                                        System.out.println(cola.shell());
+                                        break;
+                                    case 4:
+                                        System.out.println(cola.radixSort());
+                                    default:
+                                        break;
+                                }
+                            case 6:
                                 vVal = false;
                                 break;
                             default:
