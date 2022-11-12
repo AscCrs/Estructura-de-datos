@@ -36,7 +36,7 @@ public class Radixsort {
     }
 
     public static void main(String[] args) {
-        int[] arr = { 10,40, 7, 9, 15, 27 };    
+        int[] arr = { 10, 40, 7, 9, 15, 27 };    
         radixSort(arr);
         System.out.println(Arrays.toString(arr));
     }
