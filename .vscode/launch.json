@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Proyecto.Main",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainBinaryTree",
+            "request": "launch",
+            "mainClass": "Arboles.Practica.MainBinaryTree",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Arboles.Proyecto.Main",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainArbol",
+            "request": "launch",
+            "mainClass": "Arboles.mainArbol",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Actividad",
+            "request": "launch",
+            "mainClass": "Arreglos.Actividad",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Actividad2",
+            "request": "launch",
+            "mainClass": "Arreglos.Actividad2",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarea1",
+            "request": "launch",
+            "mainClass": "Arreglos.Tarea1",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarea2",
+            "request": "launch",
+            "mainClass": "Arreglos.Tarea2",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarea3",
+            "request": "launch",
+            "mainClass": "Arreglos.Tarea3",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch condicionales",
+            "request": "launch",
+            "mainClass": "Asesoria.condicionales",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch practica",
+            "request": "launch",
+            "mainClass": "Asesoria.practica",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueStackmain",
+            "request": "launch",
+            "mainClass": "Colas.QueueStackmain",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarea5",
+            "request": "launch",
+            "mainClass": "Colas.Tarea5",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainLista",
+            "request": "launch",
+            "mainClass": "Listas.mainLista",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bubblesort",
+            "request": "launch",
+            "mainClass": "MétodosDeOrdenamiento.Bubblesort",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Insertionsort",
+            "request": "launch",
+            "mainClass": "MétodosDeOrdenamiento.Insertionsort",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quicksort",
+            "request": "launch",
+            "mainClass": "MétodosDeOrdenamiento.Quicksort",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Radixsort",
+            "request": "launch",
+            "mainClass": "MétodosDeOrdenamiento.Radixsort",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shellsort",
+            "request": "launch",
+            "mainClass": "MétodosDeOrdenamiento.Shellsort",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tarea4",
+            "request": "launch",
+            "mainClass": "Pilas.Tarea4",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejemplos",
+            "request": "launch",
+            "mainClass": "Pilas.ejemplos",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainArrayStack",
+            "request": "launch",
+            "mainClass": "Pilas.mainArrayStack",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedDoublyQueueMain",
+            "request": "launch",
+            "mainClass": "ProyectoEstructuraLineal.LinkedDoublyQueueMain",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinkedStackMain",
+            "request": "launch",
+            "mainClass": "ProyectoEstructuraLineal.LinkedStackMain",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueMain",
+            "request": "launch",
+            "mainClass": "ProyectoEstructuraLineal.QueueMain",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch donut",
+            "request": "launch",
+            "mainClass": "ProyectoEstructuraLineal.donut",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch anidal",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.TiposDeRecursividad.anidal",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch deCabeza",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.TiposDeRecursividad.deCabeza",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch deCola",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.TiposDeRecursividad.deCola",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch intermedia",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.TiposDeRecursividad.intermedia",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiple",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.TiposDeRecursividad.multiple",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.factorial",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.fibonacci",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacciSinRecursividad",
+            "request": "launch",
+            "mainClass": "Recursividad.EjerciciosEnClase.fibonacciSinRecursividad",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch codigo1",
+            "request": "launch",
+            "mainClass": "Recursividad.Proyecto.codigo1",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch codigo2",
+            "request": "launch",
+            "mainClass": "Recursividad.Proyecto.codigo2",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch codigo3",
+            "request": "launch",
+            "mainClass": "Recursividad.Proyecto.codigo3",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch actividad1",
+            "request": "launch",
+            "mainClass": "Recursividad.Tarea.actividad1",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch actividad2",
+            "request": "launch",
+            "mainClass": "Recursividad.Tarea.actividad2",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch actividad3",
+            "request": "launch",
+            "mainClass": "Recursividad.Tarea.actividad3",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculadora",
+            "request": "launch",
+            "mainClass": "TAD.Calculadora",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "Estructura-de-datos_56ee42cc"
+        }
+    ]
+}
