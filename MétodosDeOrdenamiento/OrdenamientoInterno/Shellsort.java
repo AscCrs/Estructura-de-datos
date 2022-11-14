@@ -1,4 +1,4 @@
-package MétodosDeOrdenamiento;
+package MétodosDeOrdenamiento.OrdenamientoInterno;
 
 public class Shellsort {
     public static void shell(int arr[]) {

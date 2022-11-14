@@ -5,3 +5,4 @@ Temas del repositorio:
 3. Estructuras dinamicas no lineales: Grafos, arboles
 4. Algoritmos de recorrido de arboles y grafos
 5. Metodos de ordenamiento
+6. Metodos de busqueda

@@ -1,4 +1,4 @@
-package MétodosDeOrdenamiento;
+package MétodosDeOrdenamiento.OrdenamientoInterno;
 import java.util.Arrays;
 
 public class Radixsort {

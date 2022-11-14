@@ -1,4 +1,4 @@
-package MétodosDeOrdenamiento;
+package MétodosDeOrdenamiento.OrdenamientoInterno;
 
 public class Insertionsort {
 

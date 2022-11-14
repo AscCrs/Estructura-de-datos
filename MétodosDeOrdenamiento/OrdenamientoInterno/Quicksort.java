@@ -1,5 +1,5 @@
 // Entrega de proyectos: 28 Metodos de ordenamiento, 12 Busquedas
-package MétodosDeOrdenamiento;
+package MétodosDeOrdenamiento.OrdenamientoInterno;
 
 public class Quicksort {
     public static int particion(int arr[], int izq, int der) {
