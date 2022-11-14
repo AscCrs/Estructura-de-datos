@@ -1,37 +1,18 @@
 package Proyecto;
 
-public class Edge {
-    private int source; // Dato que va a almacenar
-    private int target;
-    private int weight;
-
-    public Edge(int source, int target, int weight) {
-        this.source = source;
-        this.target = target;
-        this.weight = weight;
-    }
-
-    public int getSource() {
-        return source;
-    }
-
-    public void setSource(int source) {
-        this.source = source;
-    }
-
-    public int getTarget() {
-        return target;
-    }
-
-    public void setTarget(int target) {
-        this.target = target;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public void setWeight(int weight) {
-        this.weight = weight;
-    }
+public class Edge<T> {
+    T verticeConectado; // Vertice conectado
+	int peso; //weight
+	
+	//Constructor, Time O(1) Space O(1)
+	public Edge(T v, int w) {
+		this.verticeConectado = v; 
+		this.peso = w;
+	}
+	
+	//Time O(1) Space O(1)
+	@Override
+	public String toString() {
+		return "(" + verticeConectado + "," + peso + ")";
+	}
 }
