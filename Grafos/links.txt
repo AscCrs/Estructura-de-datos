@@ -1,0 +1,5 @@
+https://www.grycap.upv.es/gmolto/docs/eda/EDA_Tema_14_Parte_I_gmolto.pdf
+
+https://www.baeldung.com/java-graphs
+
+https://stackoverflow.com/questions/4207018/labeled-graph-representation-in-java

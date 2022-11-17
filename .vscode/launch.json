@@ -9,6 +9,20 @@
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "Proyecto.Main",
+            "projectName": "Estructura-de-datos_17980340"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Grafos.Proyecto.Main",
+            "projectName": "Estructura-de-datos_17980340"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Proyecto.Main",
             "projectName": "Estructura-de-datos_56ee42cc"
         },
         {
